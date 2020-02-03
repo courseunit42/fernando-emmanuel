@@ -5,29 +5,44 @@
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
+
+<style>
+@media (max-width:320px){
+
+#home{display:flex
+}
+}
+</style>
 </head>
 
 <body>
-    <header id="header">
+<header id="header">
         <img id="header-img" src="https://www.w3schools.com/images/w3schools_green.jpg" />
 
         <nav id="nav-bar">
-		<li><a class="nav-link">Home</a></li>
-		<li><a class="nav-link">About Us</a></li>
-		<li><a class="nav-link">Features</a></li>
+		<li><a class="nav-link" href="#home">Home</a></li>
+		<li><a class="nav-link" href="#aboutus">About Us</a></li>
+		<li><a class="nav-link" href="#features">Features</a></li>
 		
 		</nav>
 
     </header>
 
-<div>
-<iframe id="video" src="https://youtube.com/embed/l8BvI0e4iiI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<form id="form">
+<div id="home">
+    <div id="aboutus">
 
-</form>
 </div>
 
+<div id="features">
+<iframe id="video" src="https://youtube.com/embed/l8BvI0e4iiI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<form id="form" action="https://www.freecodecamp.com/email-submit">
+<input type="email" id="email" placeholder="Email"/>
+<input type="submit" id="submit"/>
+</form>
+</div>
+</div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <!--
